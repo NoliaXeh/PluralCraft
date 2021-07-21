@@ -28,7 +28,7 @@ public class Main extends JavaPlugin implements Listener {
 	public static String PC_HELP = ""
 			+ "PluralCraft Help:\n"
 			+ "  /pc help\n"
-			+ "  /pc new <player> <system>\n"
+			+ "  /pc new <system>\n"
 			+ "  /pc member\n"
 			+ "  /pc member list\n"
 			+ "  /pc member new <member_name>\n"
