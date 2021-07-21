@@ -1,0 +1,8 @@
+main: fr.nolia.pluralcraft.Main
+name: PluralCraft
+version: 1.0
+author: Nolia__
+
+commands:
+  hi:
+  pc:
