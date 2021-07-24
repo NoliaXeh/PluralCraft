@@ -29,12 +29,12 @@ public class ChatListener implements Listener{
 				int i = member.getProxy().length();
 				broadcastMessage(player, member, msg.substring(i + 1));
 			}
-		}
-		else if (Main.currentSwitches.containsKey(player.getName()))
-		{
-			event.setCancelled(true);
-			Member member = Main.currentSwitches.get(player.getName());
-			broadcastMessage(player, member, msg);
+			else if (Main.currentSwitches.containsKey(player.getName()))
+			{
+				event.setCancelled(true);
+				member = Main.currentSwitches.get(player.getName());
+				broadcastMessage(player, member, msg);
+			}
 		}
 	}
 }
